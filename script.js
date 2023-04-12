@@ -1,10 +1,3 @@
-// copyright year
-let copyYear = document.querySelector('#year');
-let newDate = new Date();
-let currentYear = newDate.getFullYear();
-
-copyYear.innerHTML = currentYear;
-
 // game logic
 const cards = document.querySelectorAll('.card');
 
